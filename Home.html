@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+
+    <style>
+       img, h1 {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+  }
+
+  img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  figure {
+    text-align: center; /* Center the figure content if desired */
+  }
+  
+  figcaption {
+    font-style: italic; /* Style the caption text */
+    margin-top: 5px; /* Add some space above the caption */
+  }
+
+  .logo-bonbin {
+    text-align: center; /* Center content horizontally */
+  }
+
+  .logo-bonbin img {
+    display: block; /* To ensure proper block-level behavior */
+    margin: 0 auto; /* Center the image if it has any default margin */
+  }
+
+  .logo-bonbin h1 {
+    margin-top: 10px; /* Add some space above the heading if needed */
+  }
+
+
+  .koleksi-binatang-gambar {
+    display: flex;
+    gap: 20px; /* Optional: Add spacing between figures */
+    justify-content: center; /* Center the entire row of images if desired */
+    flex-wrap: wrap; /* Allow images to wrap if the container is too narrow */
+  }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="Home.html">Home</a> |
+      <a href="Hewan_Punah.html">Data hewan yang punah </a> 
+
+    <section>
+
+      <div class="logo-bonbin">
+        <img src="./Aset/Gambar/zoo.PNG" alt="zoo"  /> <br>
+        <h1>Konoha Zoo</h1>
+        <br />
+      </div>
+     
+
+      <div name="Informasi" id="informasi">
+
+        <dl>
+          <dd>Kebun Binatang Bandung ini pada awalnya dikenal dengan nama Derenten (dalam Bahasa sunda, dierentuin) yang artinya kebun binatang. Kebun Binatang Bandung didirikan pada tahun 1930 oleh Bandung Zoological Park (BZP), yang dipelopori oleh Direktur Bank Dennis, Hoogland. Pengesahan pendirian Kebun Binatang ini diwenangi oleh Gubernur Jenderal Hindia Belanda dan pengesahannya dituangkan pada keputusan 12 April 1933 No.32. Pada saat Jepang menguasai daerah ini, tempat wisata ini kurang terkelola, hingga pada tahun 1948, dilakukan rehabilitasi untuk mengembalikan fungsi tempat wisata ini.[3]
+
+            Pada tahun 1956, atas inisiatif dari Raden Ema Bratakusumah, Bandung Zoological Park dibubarkan dan berganti menjadi Yayasan Marga Satwa Tamansari pada tahun 1957.
+            
+            Kebun binatang ini menempati luas lahan 13,5 ha yang topografinya bergelombang dengan penggunaan 18,25% untuk areal perkandangan, 55,20% untuk pertamanan dan lesehan, 4,7% untuk taman ria dan kolam perahu, dan 2,4% untuk pengolahan sampah. Sisanya digunakan untuk bangunan kantor, museum aquarium, dan jalan.</dd>
+        </dl> <br>
+
+        <h1>Koleksi Binatang</h1>
+
+        <div class="koleksi-binatang-gambar">
+
+          <figure>
+            <a href="Google.com">
+              <img src="./Aset/Gambar/iguana.PNG" alt="Iguana" name="Iguana">
+            </a>
+            <figcaption>Reptil</figcaption>
+          </figure>    
+          
+         <figure>
+            <a href="Google.com">
+              <img src="./Aset/Gambar/Gajah.PNG" alt="Gajah" name="Gajah">
+            </a>
+            <figcaption>Reptil</figcaption>
+          </figure>
+
+          <figure>
+            <a href="Google.com">
+              <img src="./Aset/Gambar/spider.PNG" alt="spider" name="spider">
+            </a>
+            <figcaption>Reptil</figcaption>
+          </figure>
+        </div>
+
+        <h1>Formulir Pemesanan tiket</h1>
+           <fieldset>
+              <legend>Formulir</legend>
+              <!-- Tag <form action="#"> menandakan sebuah awal dari formulir  -->
+              <form action="#" method="POST">
+
+                <table>
+                  
+                  <tbody>
+                    <tr>
+                      <td>
+                          <!--  <input
+                          type="text"> memberikan inputan bertipe text -->
+                          <div>
+                            <label for="Username">Nama </label>
+                            <td>:</td>
+                            <td>
+                              <input
+                              type="text"
+                              id="Username"
+                              name="Username"
+                              placeholder=""
+                            />
+                            </td>
+                          </div>
+                          <br />
+                      </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <!--  <input
+                          type="text"> memberikan inputan bertipe text -->
+                          <div>
+                            <label for="Email">Email </label>
+                            <td>:</td>
+                            <td>
+                              <input
+                              type="email"
+                              id="Email"
+                              name="Email"
+                              placeholder=""
+                            />
+                            </td>
+                          </div>
+                          <br />
+                      </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <!--  <input
+                          type="text"> memberikan inputan bertipe text -->
+                          <div>
+                            <label for="Kontak">Kontak </label>
+                            <td>:</td>
+                            <td>
+                              <input
+                              type="text"
+                              id="Kontak"
+                              name="Kontak"
+                              placeholder=""
+                            />
+                            </td>
+                          </div>
+                          <br />
+                      </td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          <!--  <input
+                          type="text"> memberikan inputan bertipe text -->
+                          <div>
+                            <label for="Jumlah_Tiket">Jumlah Tiket </label>
+                            <td>:</td>
+                            <td>
+                              <input
+                              type="number"
+                              id="Jumlah_Tiket"
+                              name="Jumlah_Tiket"
+                              placeholder=""
+                            />
+                            </td>
+                          </div>
+                          <br />
+                      </td>
+                      </tr>
+                    
+
+                      <tr>
+                        <td>
+                          <div>
+                            <button type="submit">submit</button>
+                          </div>
+                        </td>
+                      </tr>
+                    
+                  </tbody>
+                </table>
+    
+      
+                
+                
+                <br />
+              </form>
+            </fieldset>
+
+
+      </div>
+
+    </section>
+
+    <footer>
+      2024 &copy; Konoha Zoo <sup>R</sup>
+
+    </footer>
+  </body>
+</html>
